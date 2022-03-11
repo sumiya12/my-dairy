@@ -12,16 +12,16 @@
       <div class="headpic">a</div>
     </header>
     <nav class="nav">
-      <button class="tablink"><a href="#top"> Home</a></button>
-      <button class="tablink"><a href="#about">About</a></button>
-      <button class="tablink"><a href="#pic"> Picture</a></button>
-      <button class="tablink">Contact</button>
-      <button class="tablink">Contact</button>
+      <a href="#top"><div class="tablink">Home</div></a>
+      <a href="#about"><div class="tablink">About</div></a>
+      <a href="#pic"><div class="tablink">Picture</div></a>
+      <a href="#contact"><div class="tablink">Contact</div></a>
+      <a href="#footer"><div class="tablink">Footer</div></a>
     </nav>
     <div class="outside">
       <main>
-        <div class="maincontent">
-          <div class="content" id="about">
+        <div class="maincontent" id="about">
+          <div class="content">
             <h1>this is main About</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -53,7 +53,8 @@
           <div id="pic">
             <h1>this is main pic</h1>
             <div class="hero-image">
-              <!-- <img src="pic.jpg" alt="this is pic" /> -->
+              <img src="pic.jpg" alt="this is pic" class="image" />
+              <div class="pictitle">This is picture</div>
             </div>
           </div>
           <div id="contact">
@@ -79,8 +80,10 @@
       </main>
     </div>
     <footer>
-      <div class="footer">
-        <a href="#top">copyright 2022</a>
+      <div id="footer">
+        <h4>
+          <a href="#top">Copyright 2022 </a>
+        </h4>
       </div>
     </footer>
     <div class="clear"></div>
